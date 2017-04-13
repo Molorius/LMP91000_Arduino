@@ -1,5 +1,5 @@
 # LMP91000_Arduino
-Arduino library for the TI LMP91000.
+Arduino library for the Texas Instruments LMP91000 configurable AFE potentiostat.
 Datasheet: http://www.ti.com/lit/ds/symlink/lmp91000.pdf
 
 ### LMP91000 *lmp91000*
