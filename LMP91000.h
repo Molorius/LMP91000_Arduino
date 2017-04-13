@@ -74,12 +74,12 @@
 #define LMP91000_FET_ENA          0b1 // enabled
 // bits 6:3 reserved
 // bits 2:0 mode of operation
-#define LMP91000_OP_MODE1         0b000 // deep sleep, default
-#define LMP91000_OP_MODE2         0b001 // 2-lead ground referred galvanic cell
-#define LMP91000_OP_MODE3         0b010 // Standby
-#define LMP91000_OP_MODE4         0b011 // 3-lead amperometric cell
-#define LMP91000_OP_MODE5         0b110 // Temperature measurement (TIA off)
-#define LMP91000_OP_MODE6         0b111 // Temperature measurement (TIA on)
+#define LMP91000_OP_MODE0         0b000 // deep sleep, default
+#define LMP91000_OP_MODE1         0b001 // 2-lead ground referred galvanic cell
+#define LMP91000_OP_MODE2         0b010 // Standby
+#define LMP91000_OP_MODE3         0b011 // 3-lead amperometric cell
+#define LMP91000_OP_MODE4         0b110 // Temperature measurement (TIA off)
+#define LMP91000_OP_MODE5         0b111 // Temperature measurement (TIA on)
 
 class LMP91000 {
   public:
