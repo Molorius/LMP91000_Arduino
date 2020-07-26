@@ -1,6 +1,7 @@
 # LMP91000_Arduino
 Arduino library for the Texas Instruments LMP91000 configurable AFE potentiostat.
 Datasheet: http://www.ti.com/lit/ds/symlink/lmp91000.pdf
+Licensed under GNU General Public License. 
 
 ### LMP91000 *lmp91000*
 Starts the class. *lmp91000* can be replaced with the desired name. I will keep this name for the remaining commands though. 
